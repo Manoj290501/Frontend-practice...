@@ -393,7 +393,7 @@ font-size: 15px;}
     box-shadow: inset 0px 0px 4px 4px white;
 }
 .middle{
-    width: 90%;
+    width: 100%;
     color:white;
     position: fixed;
     display: flex;
