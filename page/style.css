@@ -4,8 +4,9 @@
     margin-right:20%;
 
 }
-.body{
+body{
     margin-top: 0;
+    background-color:rgba(219,219,219) ;
 }
 .main{
     margin-left:0%;
@@ -13,13 +14,10 @@
     margin-top:0;
     padding:0%;
     padding-bottom:1%;
-    background-color: rgba(219,219,219);
 }
 nav{
     display:flex;
-    margin-left:2.5%;
-    margin-right:2.5%;
-    margin-top:0%;
+    margin:5% 2.5% 5% 2.5%;
 }
 nav img{
     border-radius: 100%;
@@ -84,15 +82,15 @@ nav img{
 .welcome{
     margin-left:0;
     margin-right:0;
-    margin-top:3%;
+    margin-top:0%;
     flex-grow: 1;
     align-items: center;
     padding:1%;
 
 }
 .welcome h4,h3{
-    margin-bottom:2px;
-    padding:1%;
+    margin-bottom:0;
+    padding:0%;
     font-family: 'PT Sans', sans-serif;
 font-size: 15px;}
 .img1{
@@ -298,27 +296,18 @@ font-size: 15px;}
 .foot{
     display:none;
 }
-.middle .fa-plus{
-    padding:2%;
-    font-size:20px;
-    color:#ffffff;
-    text-decoration: none;
 
-
-}
 .middle {
     align-items: center;
-    position:relative;
-    border-radius: 100px;
+    border-radius: 100%;
     padding:2%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(card.jpg);
-
 }
 .foot a{
     text-decoration: none;
     margin-left:5%;
     
 }
+
 @media (max-width: 700px)
 {
     
@@ -369,13 +358,19 @@ font-size: 15px;}
     flex-grow: 0;
     margin-right: 4%;
 }
-.sub .fa-cogs{
-    align-items: right;
-    display:inline-block
+.fa-gear{
+    font-size:30px;
+    text-decoration: none;
 }
 
 .foot{
     display:flex;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 3% 0% 3% 0%;
+    background-color: black;
+    border-radius: 40px 40px 0 0;
 }
 .foot a{
     text-decoration: none;
@@ -383,12 +378,27 @@ font-size: 15px;}
     margin-right:10%;
 }
 .foot .fa-house-user, .foot .fa-chart-column, .middle .fa-plus{
-    font-size:20px;
+    font-size:30px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .middle .fa-plus{
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 50%;
+    font-size:35px;
+    padding: 2%;
+    box-shadow: inset 0px 0px 4px 4px white;
+}
+.middle{
+    width: 90%;
     color:white;
+    position: fixed;
+    display: flex;
+    justify-content:center ;
+    margin:auto;
 }
 .foot .fa-house-user, .foot .fa-chart-column{
     margin-left:5%;
