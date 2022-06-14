@@ -18,6 +18,266 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/91a3de18d6.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=PT+Sans:ital@0;1&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <style>
+        
+.main{
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:0;
+    padding-bottom:1%;
+    background-color: rgba(219,219,219);
+}
+nav{
+    display:flex;
+    margin-top:0%;
+    padding:2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav img{
+    border-radius: 100%;
+    width:50px;
+    height:50px;
+
+    }
+.sub{
+    flex-grow: 1;
+    display: flex;
+    margin-right:3%;
+    margin-left:0;
+    margin-top:0;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.welcome{
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
+.welcome h3{
+    margin-left: 3%;
+    margin-top:0;
+    margin-bottom:0%;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.fa-sliders{
+    margin-right:0%;
+    margin-left:0%;
+    margin-top:0%;
+    font-size: 18px;
+    font-weight: bold;
+    padding:2%;
+    text-decoration: none;
+    color:black;
+}
+.fa-arrow-left-long{
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding:7px;
+    opacity: .8;
+
+}
+nav .topimg{
+    margin-right: 3%;
+}
+
+
+nav a{
+    display:flex;
+    margin-right: 4%;
+    align-items: center;
+    color:black;
+    text-decoration: none;
+
+
+}
+.bar1{
+    display:flex;
+    padding:1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 0%;
+    background-color: white;
+    border-radius: 10px;
+}
+.bar1 h4{
+    flex-grow: 1;
+    padding:4%;
+    padding-left: 2%;
+    margin:0%;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    float: center;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;    font-weight: bolder;
+    background-color: white;
+
+}
+
+.bar1 h4:hover{
+    background-color: rgba(219,219,219);
+
+}
+.body .bottom{
+    font-display: flex;
+}
+.body{
+    margin-left:2%;
+    margin-right:2%;
+    border-radius: 20px;
+    padding:2%;
+    margin-top:0%;
+}
+
+.mid h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.mid h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+
+}
+.body .bottom img {
+    border-radius: 20px;
+    width:100%;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.trans{
+    display:flex;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    padding:1%;
+    align-items: center;
+    justify-content: space-between;
+}
+.trans h3, .trans h4{
+    margin-top:0%;
+    margin-bottom:0%;
+    padding:2%;
+    font-family:'kanit',sans-serif;
+    margin-bottom:2%;
+    font-size: 13px;
+
+}
+.trans h4{
+    text-align: center;
+    opacity: .6;
+}
+.bar img{
+    border-radius: 100%;
+    width:50px;
+    height:50px;
+    margin-left:0;
+    margin-right:0;
+    padding:2%;
+    padding-right:0;
+    margin-left: 2%;
+}
+.bar{
+    display:flex;
+    padding:2%;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8));    
+    border-radius: 20px;
+    margin-bottom:5%;
+    color:rgb(0, 0, 0);
+    overflow-x:scroll;
+    align-items: center;
+    box-shadow: inset 0 0 3px 3px #888888;
+    margin-left:2.5%;
+    margin-right:2.5%;
+}
+.bar .h{
+    flex-grow:1;
+    padding:4%;
+    align-items: center;
+    padding-left: 2%;
+
+
+}
+.bar .h h3{
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    margin-top:0%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    font-size: 18px;
+
+}
+
+
+.bar .p{
+    padding:4%;
+    align-items: center;
+    margin-top:0;
+}
+.bar .p h3{
+    text-align: right;
+    margin-right: 0;
+    font-weight: bold;
+    margin-bottom: 0%;
+    margin-top:0;
+    font-size: 15px;
+}
+
+@media (max-width: 700px){
+.main{
+        margin-left:0%;
+        margin-right:0%;
+        padding-bottom:1% ;
+        
+    }
+body{
+        margin:0;
+        border-radius: 20px;
+    }
+
+.welcome h3{
+    font-size: 15px;
+}
+.bar1 h4{
+    font-size: 13px;
+
+}
+.mid h3{
+    font-size: 15px;
+
+}
+.mid h2{
+    font-size: 20px;
+
+}
+
+.trans h3, .trans h4{
+    font-size: 10px;
+}
+
+.bar .h h3{
+    font-size: 15px;
+}
+.bar .p h3{
+    font-size: 12px;
+}
+}
+
+
+
+    </style>
 </head>
 <body>
     <div class="main">
