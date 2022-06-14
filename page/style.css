@@ -112,8 +112,6 @@ font-size: 15px;}
     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(card.jpg);}
 .right{
     padding:2%;
-    margin-top:2%;
-
 }
 .mid{
     padding:2%;
@@ -359,7 +357,7 @@ font-size: 15px;}
     margin-right: 4%;
 }
 .fa-gear{
-    font-size:30px;
+    font-size:25px;
     text-decoration: none;
 }
 
@@ -371,6 +369,7 @@ font-size: 15px;}
     padding: 3% 0% 3% 0%;
     background-color: black;
     border-radius: 40px 40px 0 0;
+    opacity:.7;
 }
 .foot a{
     text-decoration: none;
@@ -405,5 +404,7 @@ font-size: 15px;}
     margin-left:5%;
     margin-right:5%;
 }
-
+.filler{
+    height:15vh;
+}
 }
