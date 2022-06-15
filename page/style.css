@@ -243,6 +243,7 @@ font-size: 15px;}
 }
 .bar .h{
     flex-grow:1;
+    margin-left: 0;
 
 }
 .bar .sidebar{
