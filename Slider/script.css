@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:63%;
+    margin: auto;
+    overflow:hidden ;
+    margin-top: 2%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.slider{
+    width:100%;
+    height:auto;
+    display: flex;
+    height:650px;
+    position:relative;
+    transition: .5s;
+}
+
+.slider img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    transition: 2s;
+}
+
+#prevbtn{
+    position:absolute;
+    top:50%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    left: 5%;
+    z-index: 10;
+}
+
+#nextbtn{
+    position:absolute;
+    top:50%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    right: 5%;
+    z-index: 10;
+}
+#nextbtn:hover,
+#prevbtn:hover {
+  opacity:.8;
+  
+}
+
+.navigation-dots {
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .single-dot {
+    background: #333;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .single-dot.active {
+    background: rgb(255, 255, 255);
+  }
+
+  @media only screen and (max-width: 900px) 
+  {
+    .slider{
+    height:400px;
+  }
+}
