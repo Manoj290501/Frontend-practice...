@@ -361,21 +361,26 @@ nav .fa{
 }
 .record-b ul{
     display: flex;
+    width: auto;
 }
+.record-b li:not(:last-child) { 
+	margin-right: 30px;
+} 
+
 .record-b li {
     text-align: center;
     background-color: #ff7200;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     padding:2%;
     opacity: .75;
-    margin-right: 20px;
     width:30%;
     transition-duration: .4s ease;
     text-shadow: -1px 1px 2px rgb(0, 0, 0),1px 1px 2px  rgb(0, 0, 0),1px -1px 0 rgb(0, 0, 0),-1px -1px 0 rgb(0, 0, 0);
     cursor: pointer;
     list-style: none;
 }
+
 
 .record-b li:hover{
     color: black;
@@ -395,6 +400,7 @@ nav .fa{
     color:white;
     padding:2%;
     margin-right: 20px;
+    border-radius: 10px;
     justify-content: space-between;
 }
 
@@ -813,9 +819,22 @@ nav{
     padding:5%;
     
 }
+.record-b ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 .record-b li{
-    width:fit-content;
-    margin-right:10px;
+    width:auto;
+    align-items: center;
+    font-size: 12px;
+    padding:4%;
+   
+}
+.record-b li:not(:last-child) {
+    margin-right: 20px;
 }
 .adding-1{
     margin-right:5%;
